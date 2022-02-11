@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double altura, base4, valor;
+            Console.WriteLine("Qual a altura do trinagulo ?");
+            altura = double.Parse(Console.ReadLine());
+            Console.WriteLine("Qual a Base ?");
+            base4 = double.Parse(Console.ReadLine());
+            valor = (base4 * altura) / 2;
+            Console.WriteLine("valor da area" + valor);
+
+            Console.ReadKey();
+        }
+    }
+}
