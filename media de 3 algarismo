@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double n1,n2,n3,media;
+            string nome;
+            Console.WriteLine("Digite o nome do aluno ");
+            nome = Console.ReadLine();
+            Console.WriteLine("nota 1 ");
+            n1=double.Parse(Console.ReadLine());
+            Console.WriteLine("nota 2 ");
+            n2=double.Parse(Console.ReadLine());
+            Console.WriteLine("nota 3 ");
+            n3=double.Parse(Console.ReadLine());
+            media= (n1*2)+(n2*4)+(n3*6)/12;
+            Console.WriteLine("nome"+nome);
+            Console.WriteLine("media"+media);
+
+
+
+            Console.ReadKey();
+        }
+    }
+}
