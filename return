@@ -1,0 +1,23 @@
+public static void Main(string[] args)
+        {
+            double a, b, h;
+            Console.WriteLine("Digite a base: ");
+            b = double.Parse(  Console.ReadLine()  );
+
+
+            Console.WriteLine("Digite a altura: ");
+            h = double.Parse(Console.ReadLine());
+
+
+            a = CalcularArea(b, h);
+            Console.Write(a);
+Console.ReadKey();
+        }
+
+
+        public static double CalcularArea  (double baseR, double alturaR )
+        {
+            double Area;
+            Area = baseR * alturaR;
+            return Area;
+        }
