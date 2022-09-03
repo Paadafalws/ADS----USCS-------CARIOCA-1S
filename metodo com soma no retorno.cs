@@ -12,18 +12,18 @@ namespace ConsoleApp4
         {
             int C;
             int Temp;
-            Console.WriteLine(Valor da temperatra);
+            Console.WriteLine("Valor da temperatra");
             C = int.Parse(Console.ReadLine());
             Temp = Back(C);
 
-            Console.WriteLine(Temératura C + Temp);
+            Console.WriteLine("Temératura C + Temp");
             Console.ReadKey();
 
         }
         public static int Back(int C )
         {
             int RR;
-            RR = (9  C + 160)  5;
+            RR = (C + 160);
             return RR;
         }
 

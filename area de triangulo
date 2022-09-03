@@ -9,7 +9,7 @@ namespace ConsoleApp5
     class Program
     {
         static void Main(string[] args)
-        {
+     {
             double altura, base4, valor;
             Console.WriteLine("Qual a altura do trinagulo ?");
             altura = double.Parse(Console.ReadLine());
