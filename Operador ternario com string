@@ -1,0 +1,25 @@
+
+using System;
+namespace Oper
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string n1;
+            Console.Write("Digite a frase ");
+            n1 = (Console.ReadLine());
+            string teste1 = "Esta contida";
+            string teste2 = "Nao esta contida";
+       
+            ExibirNome(n1 =="Ola joão" ? teste1 : teste2);
+            Console.ReadKey();
+        }
+        public static void ExibirNome(string texto)
+        {
+            Console.WriteLine(texto);
+        }
+
+        
+    }
+}
